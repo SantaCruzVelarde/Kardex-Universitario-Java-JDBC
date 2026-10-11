@@ -1,10 +1,10 @@
 # Kardex Universitario Java + JDBC
 
-Práctica realizada para trabajar con JDBC y la conexión entre una aplicación Java y una base de datos PostgreSQL.
+Práctica desarrollada para trabajar con JDBC y establecer la conexión entre una aplicación Java y una base de datos PostgreSQL.
 
-La aplicación se conecta a la base de datos universitydb, recupera las calificaciones correspondientes al kardex de los estudiantes y muestra la información directamente en la consola.
+La aplicación se conecta a la base de datos universitydb, consulta las calificaciones correspondientes al kardex de los estudiantes y muestra los resultados en la consola. El objetivo principal es practicar la conexión, recuperación y visualización de información almacenada en una base de datos.
 
-**Tecnologías utilizadas**
+# Tecnologías utilizadas
 
 Java
 
@@ -12,18 +12,24 @@ JDBC
 
 PostgreSQL
 
-**Configuración**
+SQL
 
-Para ejecutar el proyecto es necesario contar con Java y PostgreSQL instalados.
+# Configuración e instalación
 
-También se requiere configurar los datos de conexión a la base de datos, incluyendo el servidor, puerto, usuario, contraseña y nombre de la base de datos.
+Instalar un JDK compatible con el proyecto.
 
-**Funcionamiento**
+Contar con una instancia de PostgreSQL disponible.
 
-Se establece la conexión con PostgreSQL.
+Crear o preparar la base de datos universitydb con las tablas y los datos requeridos por las consultas.
 
-Se realiza la consulta de los datos.
+Configurar en el proyecto la dirección del servidor, el puerto, el usuario, la contraseña y el nombre de la base de datos.
 
-Se recuperan las calificaciones.
+Verificar que el controlador JDBC de PostgreSQL esté disponible para la aplicación.
 
-La información obtenida se muestra en la consola.
+Abrir el proyecto en un entorno de desarrollo compatible y ejecutar la clase principal.
+
+# Funcionamiento
+
+Al ejecutarse, el programa establece la conexión con PostgreSQL, realiza la consulta de las calificaciones y presenta la información recuperada directamente en la consola.
+
+Nota: Para reproducir los resultados, se necesita una base de datos con la estructura y los registros esperados por el programa.
