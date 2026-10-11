@@ -32,4 +32,4 @@ Abrir el proyecto en un entorno de desarrollo compatible y ejecutar la clase pri
 
 Al ejecutarse, el programa establece la conexión con PostgreSQL, realiza la consulta de las calificaciones y presenta la información recuperada directamente en la consola.
 
-Nota: Para reproducir los resultados, se necesita una base de datos con la estructura y los registros esperados por el programa.
+**Nota:** Para reproducir los resultados, se necesita una base de datos con la estructura y los registros esperados por el programa.
